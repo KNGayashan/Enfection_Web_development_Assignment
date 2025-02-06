@@ -1,14 +1,14 @@
 import './App.css'
+import BodySection from './components/custom/BodySection'
 import CopyrightSection from './components/custom/CopyrightSection'
 import EmailSection from './components/custom/EmailSection'
 import Footer from './components/custom/Footer'
 import Hero from './components/custom/Hero'
 import PartnersSection from './components/custom/PartnersSection'
-import PhoneSection from './components/custom/PhoneSection'
+
 import TextBoxSection from './components/custom/TextBoxSection'
 import TextSection from './components/custom/TextSection'
-import UiSection from './components/custom/UiSection'
-import VrSection from './components/custom/VrSection'
+
 
 
 function App() {
@@ -18,9 +18,12 @@ function App() {
     <>
       <Hero />
       <TextSection/>
+      
+      <BodySection/> 
+      {/* modified code - reduced components commented below
       <PhoneSection/>
       <UiSection/>
-      <VrSection/>
+      <VrSection/> */}
       <TextBoxSection/>
       <PartnersSection/>
       <EmailSection/>
