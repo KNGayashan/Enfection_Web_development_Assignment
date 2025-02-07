@@ -14,11 +14,11 @@ function TextBoxSection() {
 
       <div className='flex-1 bg-blue-500 text-center p-5 h-96 flex flex-col justify-center items-center rounded-3xl w-full max-w-lg relative'>
        
-        <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg transform rotate-12">
+        <div className="absolute top-[-50px] right-[20px] transform rotate-12">
           <img 
             src="/bell.png" 
             alt="" 
-            className="w-16 h-16"
+            className="w-[100px] h-[100px]"
           />
         </div>
         
