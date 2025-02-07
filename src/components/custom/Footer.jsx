@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='flex md:flex-row flex-col p-[80px] border-b-2 justify-evenly'>
+    <div className='flex md:flex-row flex-col p-[80px] border-b-2 justify-evenly '>
       <div className='w-1/4'>
         <h1 className='text-[#00329B] font-poppins font-bold'>LOGO</h1>
-        <p className='text-gray-500 text-[18px] w-[500px] my-5'>
+        <p className='text-gray-500 text-[18px] max-w-[500px] my-5'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
         <p className='text-[18px] text-gray-400'>@Lorem</p>

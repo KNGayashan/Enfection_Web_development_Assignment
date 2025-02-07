@@ -12,10 +12,15 @@ function EmailSection() {
         className="absolute top-[-35px] left-[-30px] w-[80px] h-[80px] rotate-[-15deg] ml-[250px]"
       />
 
-      <h2 className="md:text-5xl text-3xl font-semibold w-auto mt-[200px] mb-[100px] text-center">
+      <h2 className="relative md:text-5xl text-3xl font-semibold w-auto mt-[200px] mb-[100px] text-center">
         Lorem Ipsum is simply dummy
         <br />
         text of the printing.
+        <img
+        src="/pie.svg" 
+        alt="pie chart"
+        className="absolute -top-[35px] -right-[35px] w-[50px] h-[50px] "
+      />
       </h2>
 
       <div className="flex w-full items-center space-x-2 justify-center mb-[200px]">
@@ -30,11 +35,7 @@ function EmailSection() {
       </div>
 
       
-      <img
-        src="/pie.svg" 
-        alt="pie chart"
-        className="absolute top-[50px] right-[100px] w-[50px] h-[50px] mr-[500px] mt-[120px]"
-      />
+      
     </div>
   );
 }
